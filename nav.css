@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'googlesans';
+    src: url('fonts/Product\ Sans\ Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li, a {
+    font-family: 'Arial';
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'googlesans';
+    transition: 0.2s;
+    animation: fadingIn ease 1s
+}
+
+ul {
+    text-align: right;
+    align-items: center;
+}
+
+a:visited {
+    color: white;
+}
+
+header {
+    background-color: transparent;
+    padding: 30px 10%; 
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0px 7px;
+}
+
+a:hover {
+    color: #5d4eff;
+}
+
+@media only screen and (max-width: 740px) {
+    li, a {
+        font-size: 18px;
+    }
+    ul {
+    text-align: center;
+  }
+}
+
+@keyframes fadingIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}

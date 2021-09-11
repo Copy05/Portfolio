@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'googlesans';
+    src: url('fonts/Product\ Sans\ Regular.ttf');
+}
+
+html, body {
+    background-color: black;
+    height: 100%;
+}
+
+.fptext, .fptextc, .fptextsmall, .copyright, .workshead, .worksheadsmall, .abouttxtc, .abouttxt, .contacttxtc, .contacttxtsmall{
+  color: white;
+  font-size: 45px;
+  font-family: 'googlesans';
+  padding: 10px 0px;
+}
+
+.worksheadsmall {
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.fptextc {
+  font-size: 70px;
+}
+
+.fptextsmall {
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+a.reachout:hover, .projectfieldredirect:hover {
+  background-color: #4d64ec;
+  color: white;
+}
+
+.fptexthref, .fptexthref:visited {
+  font-size: 25px;
+  text-decoration: underline;
+  color: #4057dd;
+}
+
+.fptexthref:hover {
+  color: #5d6fde;
+}
+
+.reachout {
+  background-color: #2a42d0;
+  padding: 15px 40px;
+  color: white;
+  margin-top: 50px; 
+  font-size: 30px;
+  font-family: 'googlesans';
+}
+
+.projectfieldredirect {
+  margin-right: 50px;
+  background-color: #2a42d0;
+  padding: 15px 40px;
+  color: white;
+  font-size: 30px;
+  font-family: 'googlesans';
+}
+
+.container {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+footer {
+  height: 50px;
+}
+
+.socials {
+  text-align: center;
+}
+
+.copyright {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#ghico, #tweetico {
+  width: 50px;
+  margin: 0px 20px;
+}
+
+#projectredirect {
+  margin-left: 30px;
+  width: 35px;
+}
+
+.firstpart {
+  padding: 200px 100px;
+  background-image: url('./pics/munich.jpg');
+  width: auto;
+  animation: fadingIn ease 2s
+}
+
+.firstpartworks {
+  padding: 200px 100px;
+  background-image: url('./pics/munichworks.jpg');
+  animation: fadingIn ease 2s
+}
+
+.projects {
+  animation: fadingIn ease 2s
+}
+
+.project {
+  padding: 50px 100px;
+  animation: fadingIn ease 2s
+}
+
+.projectname, .projectcl, .projectdesc {
+  color: white;
+  font-family: 'googlesans';
+  font-size: 40px;
+}
+
+.projectdesc {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.projectcl {
+  margin: 25px 0px;
+  font-size: 25px;
+}
+
+.firstpartabout {
+  padding: 200px 100px;
+  background-image: url('./pics/munich.jpg');
+  animation: fadingIn ease 2s
+}
+
+.contactfirstpart {
+  padding: 200px 100px;
+  background-image: url('./pics/munich.jpg');
+  animation: fadingIn ease 2s
+}
+
+.abouttxtc {
+  font-size: 70px;
+}
+
+.abouttxt, .contacttxtsmall {
+  font-size: 25px;
+}
+
+.abouthref {
+  font-size: 25px;
+  text-decoration: underline
+}
+
+#contactdiscico, #contacttweetico {
+  text-align: center;
+  margin-right: 50px;
+  width: 150px;
+}
+
+.tweet{
+  margin-top: 25px;
+}
+
+#contactdiscico {
+  margin-top: 10px;
+}
+
+.csocials {
+  display: flex;
+  text-align: center;
+}
+
+.csocial {
+  flex: 1;
+  padding: 100px 40px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#contactdiscico, #contacttweetico, #ghico, #tweetico, #projectredirect {
+  transition: 0.5s;
+}
+
+#contactdiscico:hover, #contacttweetico:hover, #ghico:hover, #tweetico:hover, #projectredirect:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 840px){
+  .projectfieldredirect {
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .firstpart {
+    margin-bottom: 100px;
+  }
+  .fptextc {
+    padding: 0px;
+    font-size: 32px;
+  }
+  .fptext {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+  
+  .firstpartworks {
+    padding: 100px 0px;
+  }
+  
+  .fptextsmall, .abouttxt, .contacttxtc, .contacttxtsmall, .abouttxtc, .fptextc, .fptext, .reachout, .projectname, .projectdesc, .projectcl, .projectsite, .firstpartworks {
+    text-align: center;
+  }
+  
+  .projectfieldredirect {
+    visibility: hidden;
+  }
+  
+  .reachout{
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+  
+  #projectredirect {
+    text-align: center;
+    margin-left: 10px;
+    width: 30px;
+  }
+  
+  .projectsite {
+    text-align: center;
+    margin-left: 130px;
+  }
+  
+  .projectname {
+    font-size: 35px;
+  }
+  
+  .projectdesc {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  
+  .project {
+    padding: 50px 0px;
+  }
+  
+  .firstpartabout {
+    padding: 50px;
+  }
+  
+  .contacttxtc {
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+  }
+  
+  .contacttxtsmall {
+    font-size: 25px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  
+  .abouthref {
+    font-size: 20px;
+  }
+  
+  .abouttxtc {
+    font-size: 30px;
+    padding: 10px 0px;;
+  }
+  
+  #contactdiscico, #contacttweetico {
+    width: 80px;
+    margin-right: 0px;
+  }
+  
+  .abouttxt {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+  }
+}
+
+@keyframes fadingIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
