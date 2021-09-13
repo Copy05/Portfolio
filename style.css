@@ -8,7 +8,7 @@ html, body {
     height: 100%;
 }
 
-.fptext, .fptextc, .fptextsmall, .copyright, .workshead, .worksheadsmall, .abouttxtc, .abouttxt, .contacttxtc, .contacttxtsmall{
+.fptext, .foftxtc, .fofhref, .foftxtsmall, .fptextc, .fptextsmall, .copyright, .workshead, .worksheadsmall, .abouttxtc, .abouttxt, .contacttxtc, .contacttxtsmall{
   color: white;
   font-size: 45px;
   font-family: 'googlesans';
@@ -185,6 +185,41 @@ footer {
 
 #contactdiscico:hover, #contacttweetico:hover, #ghico:hover, #tweetico:hover, #projectredirect:hover {
   opacity: 0.5;
+}
+
+.fof {
+  padding: 100px 0px;
+  animation: fadingIn ease 2s;
+}
+
+.foftxtc {
+  text-align: center;
+  font-size: 150px;
+}
+.foftxtsmall {
+  text-align: center;
+}
+
+.foftxtc, .fofhref:hover {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #464cd7,
+      0 0 82px #464cd7,
+      0 0 92px #464cd7,
+      0 0 102px #464cd7,
+      0 0 151px #464cd7;
+}
+
+.fofhref, .fofhref:visited {
+  transition: 0.5;
+  text-align: center;
+}
+
+#centre {
+  text-align: center;
 }
 
 @media only screen and (max-width: 840px){
