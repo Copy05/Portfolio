@@ -80,7 +80,7 @@ footer {
   margin-bottom: 20px;
 }
 
-#ghico, #tweetico {
+#ghico, #tweetico, #ytico, #discordico{
   width: 50px;
   margin: 0px 20px;
 }
@@ -161,6 +161,9 @@ footer {
 
 .tweet{
   margin-top: 25px;
+}
+
+.indexdiscico {
 }
 
 #contactdiscico {
