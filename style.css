@@ -1,4 +1,4 @@
-@font-face {
+I@font-face {
     font-family: 'googlesans';
     src: url('fonts/Product\ Sans\ Regular.ttf');
 }
@@ -325,6 +325,10 @@ footer {
     margin: 0;
     padding: 10px 0px;
   }
+
+.projecttable {
+  display: block;
+}
 }
 
 @keyframes fadingIn {
