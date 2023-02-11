@@ -225,6 +225,10 @@ footer {
   text-align: center;
 }
 
+.projecttable {
+  display: flex;
+}
+
 @media only screen and (max-width: 840px){
   .projectfieldredirect {
     padding: 10px 30px;
