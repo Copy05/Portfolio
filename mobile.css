@@ -124,6 +124,15 @@
         flex: 0;
         display: inline-block;
     }
+
+    .projectfield {
+      padding: 0px 30px;
+    }
+
+    .workshref {
+      height: 100px;
+      margin: 20px;
+    }
 }
   
 @keyframes fadingIn {

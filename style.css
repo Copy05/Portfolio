@@ -246,3 +246,25 @@ footer {
 .centre {
   text-align: center;
 }
+
+.projectfield {
+  font-family: 'googlesans';
+  padding: 10px 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.projectarea {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: 'googlesans';
+}
+
+.workshref {
+  height: 195px;
+  margin: 20px;
+  margin-left: 100px;
+}
