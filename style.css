@@ -114,8 +114,14 @@ footer {
   animation: fadingIn ease 2s
 }
 
-.projectname, .projectcl, .projectdesc {
+.projectcl {
   margin: 0px 10px;
+  color: white;
+  font-family: 'googlesans';
+  font-size: 40px;
+}
+
+.projectname, .projectdesc {
   color: white;
   font-family: 'googlesans';
   font-size: 40px;
@@ -251,8 +257,15 @@ footer {
   font-family: 'googlesans';
   padding: 10px 100px;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: bold;
+}
+
+.projectfieldtext {
+  font-family: 'googlesans';
+  padding: 10px 100px;
+  color: white;
+  font-size: 20px;
 }
 
 .projectarea {
@@ -267,4 +280,9 @@ footer {
   height: 195px;
   margin: 20px;
   margin-left: 100px;
+  transition: 0.15s;
+}
+
+.workshref:hover {
+  opacity: 50%;
 }
