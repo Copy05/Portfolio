@@ -48,6 +48,7 @@ a.reachout:hover, .projectfieldredirect:hover {
 .reachout {
   background-color: #2a42d0;
   padding: 15px 40px;
+  border-radius: 5px;
   color: white;
   margin-top: 50px; 
   font-size: 30px;
