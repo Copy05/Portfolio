@@ -53,13 +53,18 @@
     }
     
     .projectname {
-      padding: 0px 10px;
+      padding: 0px 20px;
       font-size: 35px;
+    }
+
+    .projectcl {
+      text-align: left;
+      padding: 0px 20px;
     }
     
     .projectdesc {
       font-size: 20px;
-      padding: 0px 10px;
+      padding: 0px 20px;
     }
     
     .project {
