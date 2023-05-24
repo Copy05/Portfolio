@@ -3,6 +3,16 @@
     src: url('fonts/Product\ Sans\ Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Entertainmasters-Sans';
+  src: url('fonts/EM-SANS.ttf');
+}
+
 html, body {
     background-color: black;
     height: 100%;
@@ -16,13 +26,22 @@ html, body {
   padding: 10px 0px;
 }
 
+.workshead, .contacttxtc {
+  font-family: 'Montserrat';
+}
+
 .worksheadsmall {
   margin-bottom: 60px;
   font-size: 30px;
 }
 
 .fptextc {
+  font-family: 'Montserrat';
   font-size: 70px;
+}
+
+.copyname {
+  font-family: 'Entertainmasters-Sans';
 }
 
 .fptextsmall {
@@ -31,18 +50,18 @@ html, body {
 }
 
 a.reachout:hover, .projectfieldredirect:hover {
-  background-color: #4d64ec;
+  background-color: #3660f7;
   color: white;
 }
 
 .fptexthref, .fptexthref:visited {
   font-size: 25px;
   text-decoration: underline;
-  color: #4057dd;
+  color: #3660f7;
 }
 
 .fptexthref:hover {
-  color: #5d6fde;
+  color: #68abf7;
 }
 
 .reachout {
@@ -151,6 +170,7 @@ footer {
 }
 
 .abouttxtc {
+  font-family: 'Montserrat';
   font-size: 70px;
 }
 
@@ -161,6 +181,10 @@ footer {
 .abouthref {
   font-size: 25px;
   text-decoration: underline
+}
+
+.abouthref:hover {
+  color: #3660f7;
 }
 
 #contactdiscico, #contacttweetico {
@@ -246,7 +270,7 @@ footer {
   margin: 0px 20px;
   color: white;
   font-size: 35px;
-  font-family: 'googlesans';
+  font-family: 'Montserrat';
   padding: 10px 0px;
 }
 
@@ -255,11 +279,10 @@ footer {
 }
 
 .projectfield {
-  font-family: 'googlesans';
+  font-family: 'Montserrat';
   padding: 10px 100px;
   color: white;
   font-size: 23px;
-  font-weight: bold;
 }
 
 .projectfieldtext {
