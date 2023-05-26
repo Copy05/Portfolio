@@ -310,3 +310,7 @@ footer {
 .workshref:hover {
   opacity: 50%;
 }
+
+.emhref {
+  font-family: 'Entertainmasters-Sans';
+}
