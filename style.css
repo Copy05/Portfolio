@@ -13,6 +13,23 @@
   src: url('fonts/EM-SANS.ttf');
 }
 
+/*
+ScrollBars
+*/
+
+::-webkit-scrollbar {
+  background: #00060f;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4d4d4d;
+}
+
+/*
+GLOBAL CSS
+*/
+
 html, body {
     background-color: black;
     height: 100%;
@@ -67,7 +84,7 @@ a.reachout:hover, .projectfieldredirect:hover {
 .reachout {
   background-color: #2a42d0;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 7px;
   color: white;
   margin-top: 50px; 
   font-size: 30px;
@@ -102,7 +119,7 @@ footer {
   margin-bottom: 20px;
 }
 
-#ghico, #tweetico, #ytico, #discordico{
+#socialico {
   width: 50px;
   margin: 0px 20px;
 }
@@ -213,11 +230,15 @@ footer {
   text-align: center;
 }
 
-#contactdiscico, #contacttweetico, #ghico, #tweetico, #projectredirect {
+#socialico {
+  transition: 0.2s;
+}
+
+#contactdiscico, #contacttweetico, #projectredirect {
   transition: 0.5s;
 }
 
-#contactdiscico:hover, #contacttweetico:hover, #ghico:hover, #tweetico:hover, #projectredirect:hover {
+#contactdiscico:hover, #contacttweetico:hover, #socialico:hover, #projectredirect:hover {
   opacity: 0.5;
 }
 
@@ -278,6 +299,10 @@ footer {
   text-align: center;
 }
 
+.desk_centre {
+  text-align: center;
+}
+
 .projectfield {
   font-family: 'Montserrat';
   padding: 10px 100px;
@@ -300,15 +325,21 @@ footer {
   font-family: 'googlesans';
 }
 
+#projecticon {
+  text-align: center;
+}
+
 .workshref {
-  height: 195px;
+  height: 210px;
   margin: 20px;
   margin-left: 100px;
-  transition: 0.15s;
+  transition: 0.2s;
 }
 
 .workshref:hover {
+  border-radius: 19px;
   opacity: 50%;
+  transform: scale(1.05);
 }
 
 .emhref {

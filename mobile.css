@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'googlesans';
-    src: url('fonts/Product\ Sans\ Regular.ttf');
-}
-
 @media only screen and (max-width: 840px){
     .projectfieldredirect {
       padding: 10px 30px;
@@ -145,6 +140,14 @@
 
     .workshead {
       font-size: 30px;
+    }
+
+    .desk_centre {
+      text-align: left;
+    }
+
+    .mobile_centre {
+      text-align: center;
     }
 }
   
