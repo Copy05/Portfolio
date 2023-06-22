@@ -14,7 +14,7 @@ li, a {
     list-style: none;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'googlesans';
     transition: 0.2s;
     animation: fadingIn ease 1s
@@ -41,7 +41,7 @@ header {
 }
 
 a:hover {
-    color: #5d4eff;
+    color: #53abfc;
 }
 
 @media only screen and (max-width: 740px) {

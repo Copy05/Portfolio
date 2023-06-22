@@ -13,9 +13,7 @@
   src: url('fonts/EM-SANS.ttf');
 }
 
-/*
-ScrollBars
-*/
+/* ScrollBars */
 
 ::-webkit-scrollbar {
   background: #00060f;
@@ -26,9 +24,7 @@ ScrollBars
   background: #4d4d4d;
 }
 
-/*
-GLOBAL CSS
-*/
+/* GLOBAL CSS */
 
 html, body {
     background-color: black;
@@ -84,11 +80,11 @@ a.reachout:hover, .projectfieldredirect:hover {
 .reachout {
   background-color: #2a42d0;
   padding: 15px 40px;
-  border-radius: 7px;
+  border-radius: 8px;
   color: white;
   margin-top: 50px; 
-  font-size: 30px;
-  font-family: 'googlesans';
+  font-size: 25px;
+  font-family: 'Montserrat';
   margin-left: 20px;
 }
 
@@ -130,8 +126,13 @@ footer {
 }
 
 .firstpart {
+  user-select: none;
+  text-align: center;
   padding: 200px 100px;
-  background-image: url('./pics/munich.jpg');
+  background-image: url('./pics/MainPageGif.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: auto;
   animation: fadingIn ease 2s
 }
@@ -139,6 +140,9 @@ footer {
 .firstpartworks {
   padding: 200px 100px;
   background-image: url('./pics/munichworks.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   animation: fadingIn ease 2s
 }
 
@@ -334,6 +338,7 @@ footer {
   margin: 20px;
   margin-left: 100px;
   transition: 0.2s;
+  border-radius: 12px;
 }
 
 .workshref:hover {

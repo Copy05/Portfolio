@@ -141,14 +141,6 @@
     .workshead {
       font-size: 30px;
     }
-
-    .desk_centre {
-      text-align: left;
-    }
-
-    .mobile_centre {
-      text-align: center;
-    }
 }
   
 @keyframes fadingIn {

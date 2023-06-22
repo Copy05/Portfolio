@@ -1,0 +1,17 @@
+.blue {
+    color: #53abfc;
+}
+
+@media only screen and (max-width: 440px) {
+    .desktop_only {
+        display: none;
+    }
+
+    .desk_centre {
+        text-align: left;
+    }
+  
+    .mobile_centre {
+        text-align: center;
+    }
+}
