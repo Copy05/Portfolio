@@ -350,3 +350,36 @@ footer {
 .emhref {
   font-family: 'Entertainmasters-Sans';
 }
+
+.graphs {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+footer {
+  margin: 20px;
+}
+
+.numbergraph {
+  font-family: 'Entertainmasters-Sans';
+  font-size: 80px;
+  text-align: center;
+}
+
+.spitext {
+  margin: 30px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-family: 'Montserrat';
+  padding: 10px 0px;
+}
+
+.graphtitle {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
