@@ -144,7 +144,22 @@
 
     .graphs {
       margin: 10px;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .clients {
+      margin: 10px;
       display: block;
+    }
+
+    .numbergraph {
+      font-size: 40px;
+    }
+
+    .spisfz, .spismp, .spicd, .spipx {
+      margin: 10px 0px;
+      text-align: center;
     }
 }
   

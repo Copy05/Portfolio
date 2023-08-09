@@ -1,7 +1,7 @@
 const copyr = document.getElementById('copyr')
 
 document.addEventListener("DOMContentLoaded", (e) => {
-    copyr.innerHTML = `<span style="font-family: sans-serif;">&copy;</span> 2021 – ${new Date().getFullYear().toString()} Copy05. All Rights Reserved`
+    copyr.innerHTML = `<span style="font-family: sans-serif;">&copy;</span> 2021 – ${new Date().getFullYear().toString()} Copy. All Rights Reserved`
 })
 
 const counters = document.querySelectorAll('.numbergraph');
