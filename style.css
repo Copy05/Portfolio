@@ -362,6 +362,11 @@ footer {
   transform: scale(1.05);
 }
 
+.channelhref {
+  border-radius: 969px; 
+  height: 150px;
+}
+
 .emhref {
   font-family: 'Entertainmasters-Sans';
 }
