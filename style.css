@@ -196,7 +196,13 @@ footer {
 
 .firstpartabout {
   padding: 200px 100px;
+  padding-bottom: 40px;
   background-image: url('./pics/munich.jpg');
+  animation: fadingIn ease 2s
+}
+
+.secondpartabout {
+  padding: 20px 100px;
   animation: fadingIn ease 2s
 }
 
@@ -422,4 +428,20 @@ footer {
 
 .cprojects {
   scroll-behavior: smooth;
+}
+
+.coperations {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+}
+
+.cperat {
+  height: 100px;
+  transition: 0.15s;
+}
+
+.cperat:hover {
+  opacity: 70%;
 }
