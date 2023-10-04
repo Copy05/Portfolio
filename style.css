@@ -442,6 +442,10 @@ footer {
   transition: 0.15s;
 }
 
+.cperatmr {
+  height: 75px;
+}
+
 .cperat:hover {
   opacity: 70%;
 }
