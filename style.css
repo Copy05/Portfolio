@@ -391,15 +391,15 @@ footer {
 
 .numbergraph {
   font-family: 'Entertainmasters-Sans';
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
 }
 
 .spitext {
-  margin: 30px;
-  text-align: center;
+  margin: 30px 100px;
+  text-align: left;
   color: white;
-  font-size: 45px;
+  font-size: 20px;
   font-family: 'Montserrat';
   padding: 10px 0px;
 }
@@ -438,7 +438,7 @@ footer {
 }
 
 .cperat {
-  height: 100px;
+  height: 80px;
   transition: 0.15s;
 }
 
