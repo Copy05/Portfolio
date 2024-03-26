@@ -449,3 +449,38 @@ footer {
 .cperat:hover {
   opacity: 70%;
 }
+
+/* CARDS */
+
+.a-card {
+  max-width: 500px;
+  margin: 50px 75px 0 0;
+  padding: 30px 50px 300px 30px;
+  display: inline-block;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.cardhead {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 0 0 40px;
+}
+
+.cardtext {
+  font-family: 'googlesans';
+  line-height: 1.6;
+}
+
+.cardtext-href:hover {
+  color: #476cf1 !important;
+}
+
+.cardtext-href {
+  text-decoration: underline;
+  color: #2b53e0 !important;
+}
+
+.cw-href {
+  font-family: serif;
+}

@@ -184,6 +184,13 @@
         text-align: center !important;
         margin-left: 0px !important;
     }
+
+    /* CARD */
+
+    .a-card {
+      padding: 30px 25px 50px 30px;
+      margin: 20px 0 0 0;
+    }
 }
   
 @keyframes fadingIn {
