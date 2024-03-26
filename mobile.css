@@ -44,7 +44,7 @@
     
     .projectsite {
       text-align: center;
-      margin-left: 130px;
+      margin-left: 20px;
     }
     
     .projectname {
@@ -174,6 +174,15 @@
 
     .coperations {
       row-gap: 10px;
+    }
+
+    .mobile_centre .projectcl {
+        text-align: center !important;
+    }
+
+    .mobile_centre .projectsite {
+        text-align: center !important;
+        margin-left: 0px !important;
     }
 }
   
