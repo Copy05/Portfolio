@@ -1,3 +1,3 @@
 # Portfolio
 
-This is my portfolio
+This is my site which i primarely use to show my works and obviously apply jobs with.
