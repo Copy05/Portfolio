@@ -28,6 +28,12 @@
   src: url('fonts/White_NT.otf');
 }
 
+/* ROOT */
+
+:root {
+  --link-text: #368bec;
+}
+
 /* ScrollBars */
 
 ::-webkit-scrollbar {
@@ -86,7 +92,7 @@ a.reachout:hover, .projectfieldredirect:hover {
 .fptexthref, .fptexthref:visited {
   font-size: 25px;
   text-decoration: underline;
-  color: #3660f7;
+  color: var(--link-text);
 }
 
 .fptexthref:hover {
@@ -486,7 +492,7 @@ footer {
 
 .cardtext-href {
   text-decoration: underline;
-  color: #2b53e0 !important;
+  color: var(--link-text) !important;
 }
 
 .cw-href {
