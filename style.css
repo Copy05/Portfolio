@@ -447,7 +447,7 @@ footer {
 .coperations {
   text-align: center;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   margin: 20px;
 }
 
